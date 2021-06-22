@@ -1,0 +1,14 @@
+.header-section{
+    background-image: linear-gradient(rgba(0, 25, 250, 0.603),#8008),url('../../assets/header.jpg');
+    background-size: cover;
+    height:250px;
+    width:100%;
+    background-repeat:no-repeat;
+}
+.header-title{
+    color:white;
+    font-size: 70px;
+    font-family:fantasy;
+    letter-spacing: 25px;
+    text-shadow: 1px 1px 5px #000000;
+}

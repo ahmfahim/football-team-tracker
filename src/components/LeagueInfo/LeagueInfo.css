@@ -1,0 +1,80 @@
+.league-thumb img{
+    height:200px;
+    padding-top: 50px;
+}
+.league-thumb{
+    background-image: linear-gradient(rgba(0, 25, 250, 0.603),#8008),url('../../assets/header.jpg');
+    background-size: cover;
+    height:250px;
+    width:100%;
+    background-repeat:no-repeat;
+    margin-bottom: 20px;
+    margin-top: -52px;
+}
+.league-main-info h2{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    border-bottom: 1px solid tomato;
+    font-family:'Times New Roman', Times, serif;
+}
+.league-main-info p{
+    font-family: 'Courier New', Courier, monospace;
+}
+.league-main-info{
+    padding:20px;
+    background: #6600ff;
+    color:#fff;
+    margin: 40px;
+    border-radius: 20px;
+    margin-bottom: 0px;
+}
+.team-img img{
+    height:280px;
+    width: 100%;
+}
+.league-details p{
+    font-family:'Courier New', Courier, monospace;
+    color: gray;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.s-icon{
+    font-size: 40px;
+    margin:10px;
+    background:black;
+    border-radius: 100%;
+    padding:5px;
+    margin-bottom: 50px;
+    margin-top: -50px;
+}
+.home-btn{
+    width:100px;
+    height: 30px;
+    padding:0px;
+    border-radius:0px;
+    background:#6600ff;
+    border: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: -10px;
+    margin-left: 10px;
+}
+.home-btn span{
+    color:#fff;
+}
+.icon{
+    color: tomato;
+    font-size: 25px;
+}
+@media(max-width:600px){
+    .league-main-info{
+        padding:20px;
+        background: #6600ff;
+        color:#fff;
+        margin: 40px;
+        border-radius: 20px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+}

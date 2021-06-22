@@ -1,0 +1,51 @@
+.explore-btn span{
+    color:white;
+    text-decoration:none;
+}
+.explore-btn{
+    width:100px;
+    height: 30px;
+    padding:0px;
+    border-radius:0px;
+}
+.btn-body{
+    height:100px;
+}
+.leagues-info{
+    height: 180px;
+}
+.leagues-container img{
+    width:100px;
+}
+.leagues-container h1{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.leagues-container p{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 10px;
+}
+.leagues-container{
+    box-shadow: 1px 1px 5px gray;
+    padding: 20PX;
+    margin-left: 2.5%;
+    margin-top:2%;
+    text-align:center;
+    width: 30%;
+    height:250px;
+    float:left;
+}
+@media(max-width:576px){
+    .leagues-container{
+    box-shadow: 1px 1px 5px gray;
+    padding: 20PX;
+    margin-top:3%;
+    margin-left: 5%;
+    text-align:center;
+    width: 90%;
+    height:250px;
+    float:left;
+}
+}
+
